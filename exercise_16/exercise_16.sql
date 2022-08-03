@@ -11,4 +11,3 @@ JOIN film_actor ON film.film_id = film_actor.film_id
 JOIN actor ON film_actor.actor_id = actor.actor_id
 WHERE film.title = 'Airplane Sierra'
 GROUP BY film.film_id
-LIMIT 10
